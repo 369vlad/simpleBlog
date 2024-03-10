@@ -1,0 +1,366 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: rgb(247, 245, 242);
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 140rem;
+    margin: 0 auto;
+    gap: 3rem;
+}
+
+/***************************/
+/*HEADER SECTION*/
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.header-p {
+    font-size: 2rem;
+}
+
+.header-span {
+    background-color: #000;
+    color: #fff;
+    padding: 0.3rem 0.6rem;
+    text-align: center;
+}
+
+/******************************/
+/*ARTICLE MAIN*/
+.article-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 90rem;
+}
+
+.art-section-0 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #fff;
+    /* box-shadow: 6px 6px 6px 6px #888888 unset; */
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.article-img {
+    width: 100%;
+    height: 34rem;
+    background-size: cover;
+}
+
+.art-section-0 h2 {
+    font-size: 2.5rem;
+    padding-top: 1.2rem;
+    padding-left: 1rem;
+}
+
+.art-section-0-margin {
+    margin-bottom: 6rem;
+}
+
+.pad-top-left {
+    padding-top: 1.4rem;
+    padding-left: 1rem;
+}
+
+.title-desc {
+    font-size: 1.8rem;
+}
+
+.title-text {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.read-more-btn {
+    padding: 1rem 4rem;
+    margin: 1rem 1rem;
+    border: 0.1rem solid #000;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.comments {
+    width: 100%;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.comment-count {
+    margin-top: 2rem;
+    margin-right: 2rem;
+    font-size: 1.5rem;
+}
+
+.com-span-1 {
+    color: #fff;
+    padding: 0.5rem;
+    background-color: rgb(21, 24, 197);
+}
+
+.com-span-2 {
+    border-radius: 50%;
+    color: #fff;
+    width: 2rem;
+    height: 2rem;
+    background-color: rgb(21, 24, 197);
+    display: inline-block;
+    padding: 0.2;
+    line-height: 2.1rem;
+    text-align: center;
+}
+
+/****************************/
+/****************************/
+/******* ASIDE SECTION 1 ****/
+.aside-section-1 {
+    margin-bottom: 3rem;
+}
+
+.asi-section-whole {
+    background-image: url('https://images.unsplash.com/photo-1611859328053-3cbc9f9399f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8b2FrJTIwdHJlZXxlbnwwfHwwfHw%3D&w=1000&q=80');
+    font-size: 4rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
+    -webkit-box-shadow: 0 0 5px 2px rgb(159, 89, 89);
+    -moz-box-shadow: 0 0 5px 2px rgb(171, 56, 56);
+
+
+}
+
+.asi-section-whole-text {
+    background-color: #fff;
+    padding: 1rem;
+}
+
+.aside-section-1-h3 {
+    font-size: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+
+/***** ASIDE SECTION 2 ******/
+aside {
+    max-width: 40rem;
+    margin-bottom: 10rem;
+}
+
+.aside-section-2 {
+    margin-bottom: 3rem;
+    background-color: #fff;
+    /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
+    -webkit-box-shadow: 0 0 5px 2px rgb(159, 89, 89);
+    -moz-box-shadow: 0 0 5px 2px rgb(171, 56, 56);
+
+}
+
+.aside-section-2>a {
+    text-decoration: none;
+    color: #000;
+}
+
+.aside-3-popular {
+    background-color: #dad5d5;
+    font-size: 4rem;
+    padding: 2rem 10rem 2rem 2rem;
+}
+
+.pop-post-1 {
+    padding-top: 2rem;
+}
+
+.pop-post-2 {
+    padding-bottom: 2rem;
+}
+
+.pop-post {
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-left: 1rem;
+}
+
+.pop-img {
+    width: 5.5rem;
+    height: 5.5rem;
+}
+
+hr {
+    color: #dad5d5;
+    margin: 1.5rem 0;
+}
+
+/***** ASIDE SECTION 3 ******/
+.aside-section-3 {
+    /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
+    -webkit-box-shadow: 0 0 5px 2px rgb(159, 89, 89);
+    -moz-box-shadow: 0 0 5px 2px rgb(171, 56, 56);
+    
+}
+
+.aside-3-tags {
+    background-color: #dad5d5;
+    font-size: 4rem;
+    padding: 2rem 28rem 2rem 2rem;
+    
+
+}
+
+.aside-a-cont {
+    display: flex;
+    gap: 0.2rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 10rem;
+    background-color: #fff;
+}
+
+.aside-3-a {
+    padding: 0.3rem 0.4rem;
+    background-color: #dfe8fa;
+    font-size: 1.8rem;
+    color: #000;
+    text-decoration: none;
+    text-shadow: #b17aa0 1px 0 10px;
+}
+
+.aside-3-a-first {
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+.btn-portfolio {
+    border: 0.1rem solid #000;
+    padding: 1rem 3rem;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+
+}
+
+footer {
+    padding: 3rem 9rem;
+    background-color: rgb(115, 109, 109);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.footer-li {
+    display: inline;
+    padding-right: 1rem
+}
+.btn-footer {
+    display: inline-block;
+    padding: 1rem 1.2rem;
+    background-color: #938b8b;
+    font-size: 3rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 900px) {
+    
+
+    .title-text {
+        text-align: justify;
+        margin-right: 1rem;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    footer {
+        gap: 1rem;
+        justify-content: center;
+    }
+    .btn-footer {
+        padding: 0;
+        
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .header-p {
+        font-size: 1.5rem;
+    }
+    .btn-footer {
+        
+        padding: 0.3rem 0.8rem;       
+        
+        
+    }
+    .foot-ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+   
+}
+
+@media only screen and (max-width: 400px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .header-p {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .art-section-0 h2 {
+        font-size: 2rem;
+        padding-top: 1.2rem;
+        padding-left: 1rem;
+    }
+
+    .read-more-btn {
+        padding: 1rem 2rem;
+    }
+
+    .article-img {
+        height: 24rem;
+    }
+
+    aside {
+        margin: 0 10%;
+        max-width: 100%;
+    }
+}
